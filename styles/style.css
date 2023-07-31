@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.link {
+  padding: 10px;
+}
+.first a {
+  color: blue;
+  text-decoration: none;
+}
+.second a {
+  color: red;
+}
+.third a {
+  color: #000;
+  text-decoration: none;
+}
+.first a:hover {
+  color: rgb(18, 129, 40);
+  text-decoration: underline;
+  cursor:wait;
+}
+.second a:hover {
+  color: blue;
+  text-decoration: line-through;
+  cursor:grab;
+}
+.third a:hover {
+  color: red;
+  text-decoration: overline;
+  cursor:no-drop;
+}
